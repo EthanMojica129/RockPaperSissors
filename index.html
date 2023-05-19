@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, scissors machine</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/22b2c28810.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1> Welcome to the Rock, Paper, Scissor Machine</h1>
+        <p> Do you have what it takes to beat the machine?</p>
+        <h3>Rules</h3>
+        <ul>
+            <li>Rock beats Scissors</li>
+            <li>Scissors beats Paper</li>
+            <li>Paper beats Rock</li>
+            <li>If both of you select the same item, is a draw</li>
+            <li>The best of five wins</li>
+        </ul>
+        <h3> Good Luck</h3>
+    </header>
+    <article>
+        <h2> Choose your weapon</h2>
+        <div class="weapon list">
+            <div class='selection' id="rock">
+                <i class="fa-solid fa-hill-rockslide"></i>
+                <p> This is the rock, you hit things with it</p>
+            </div>
+            <div class='selection' id="paper">
+                <i class="fa-solid fa-scroll"></i>
+                <p> This is the paper, you wrap things with it</p>
+            </div>
+            <div class='selection' id="scissors">
+                <i class="fa-solid fa-scissors"></i>
+                <p>These are the scissors, you cut things with it</p>
+            </div>
+        </div>
+        <div class="state">
+            <p class="round">Round: 0</p>
+            <p class="lives">Your Lives: 5 ︱ Enemy's Lives: 5</p>
+            <p class="combat-text">Combat Area: Nothing to see here right now</p>
+        </div>
+        
+        <div class="game-end-div">
+            <p class="game-end-text"></p>
+            <button class="play-again">Fight Again!</button>
+          </div>
+    </article>
+
+    <footer>
+        <p>Copyrigth: the odin project 2023</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
